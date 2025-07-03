@@ -28,7 +28,7 @@ class PromptsHub {
     async loadPrompts() {
         try {
             // Try to load from the data directory
-            const response = await fetch('/api/prompts');
+            const response = await fetch('/data/prompts.json');
             console.log('Fetch response:', response); // Log the raw response
             if (!response.ok) {
                 const errorText = await response.text(); // Try to read response body for more info
