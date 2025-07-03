@@ -30,7 +30,8 @@ class PromptsHub {
             // Try to load from the data directory
             const response = await fetch('/data/prompts.json');
             if (!response.ok) {
-                throw new Error('Could not load prompts data');
+                const errorText = await response.text(); // Try to read response body for more info
+                throw new Error(`Could not load prompts data: ${response.status} ${response.statusText} - ${errorText}`);
             }
             this.prompts = await response.json();
             this.filteredPrompts = [...this.prompts];
