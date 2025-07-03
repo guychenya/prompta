@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompts Hub Admin</title>
+    <link rel="stylesheet" href="src/styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚙️</text></svg>">
+    <style>
+        body {
+            background-color: var(--bg-secondary);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+        .admin-container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: var(--bg-primary);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-md);
+        }
+        .admin-header {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: var(--primary-color);
+        }
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+        }
+        .form-group input[type="text"],
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #d1d5db;
+            border-radius: var(--radius-md);
+            font-size: var(--font-size-base);
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+        }
+        .form-group textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+        .form-group input[type="checkbox"] {
+            margin-right: 0.5rem;
+        }
+        .form-actions {
+            display: flex;
+            justify-content: flex-end;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: var(--radius-md);
+            cursor: pointer;
+            font-size: var(--font-size-base);
+            transition: var(--transition);
+        }
+        .btn-primary {
+            background: var(--primary-color);
+            color: var(--text-white);
+        }
+        .btn-primary:hover {
+            background: var(--primary-hover);
+        }
+        .btn-secondary {
+            background: var(--bg-tertiary);
+            color: var(--text-secondary);
+        }
+        .btn-secondary:hover {
+            background: #e2e8f0;
+        }
+        .prompt-list {
+            margin-top: 2rem;
+            border-top: 1px solid #e2e8f0;
+            padding-top: 1.5rem;
+        }
+        .prompt-item {
+            background: var(--bg-secondary);
+            border: 1px solid #e2e8f0;
+            border-radius: var(--radius-md);
+            padding: 1rem;
+            margin-bottom: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .prompt-item-details h3 {
+            margin: 0 0 0.5rem 0;
+            color: var(--primary-color);
+        }
+        .prompt-item-details p {
+            margin: 0;
+            color: var(--text-secondary);
+            font-size: var(--font-size-sm);
+        }
+        .prompt-item-actions button {
+            margin-left: 0.5rem;
+            padding: 0.5rem 1rem;
+            font-size: var(--font-size-sm);
+        }
+        .prompt-item-actions .btn-danger {
+            background: var(--error-color);
+            color: var(--text-white);
+        }
+        .prompt-item-actions .btn-danger:hover {
+            background: #c83232;
+        }
+        .message {
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: var(--radius-md);
+            font-weight: 600;
+        }
+        .message.success {
+            background-color: #d4edda;
+            color: #155724;
+            border-color: #c3e6cb;
+        }
+        .message.error {
+            background-color: #f8d7da;
+            color: #721c24;
+            border-color: #f5c6cb;
+        }
+    </style>
+</head>
+<body>
+    <div class="admin-container">
+        <h1 class="admin-header">Prompts Hub Admin Panel</h1>
+
+        <div id="messageArea"></div>
+
+        <h2>Add New Prompt</h2>
+        <form id="addPromptForm">
+            <div class="form-group">
+                <label for="promptId">ID (Unique Identifier):</label>
+                <input type="text" id="promptId" required>
+            </div>
+            <div class="form-group">
+                <label for="promptTitle">Title:</label>
+                <input type="text" id="promptTitle" required>
+            </div>
+            <div class="form-group">
+                <label for="promptDescription">Description:</label>
+                <textarea id="promptDescription" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="promptText">Prompt Text:</label>
+                <textarea id="promptText" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="promptCategory">Category:</label>
+                <select id="promptCategory" required>
+                    <option value="">Select Category</option>
+                    <option value="conversational">Conversational</option>
+                    <option value="system">System</option>
+                    <option value="template">Template</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="promptSubcategory">Subcategory:</label>
+                <input type="text" id="promptSubcategory" required>
+            </div>
+            <div class="form-group">
+                <label for="promptComplexity">Complexity:</label>
+                <select id="promptComplexity" required>
+                    <option value="">Select Complexity</option>
+                    <option value="basic">Basic</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                    <option value="expert">Expert</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="promptTargetAi">Target AI (comma-separated):</label>
+                <input type="text" id="promptTargetAi" placeholder="e.g., chatgpt,claude,gemini">
+            </div>
+            <div class="form-group">
+                <label for="promptUseCases">Use Cases (comma-separated):</label>
+                <input type="text" id="promptUseCases" placeholder="e.g., business,education">
+            </div>
+            <div class="form-group">
+                <label for="promptTags">Tags (comma-separated):</label>
+                <input type="text" id="promptTags" placeholder="e.g., coach,writer">
+            </div>
+            <div class="form-group">
+                <label for="promptUsageExample">Usage Example (Optional):</label>
+                <textarea id="promptUsageExample"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="promptSourceRepo">Source Repository:</label>
+                <input type="text" id="promptSourceRepo" required>
+            </div>
+            <div class="form-group">
+                <label for="promptSourceLicense">Source License:</label>
+                <input type="text" id="promptSourceLicense" required>
+            </div>
+            <div class="form-actions">
+                <button type="submit" class="btn btn-primary">Add Prompt</button>
+            </div>
+        </form>
+
+        <h2 style="margin-top: 3rem;">Existing Prompts</h2>
+        <div id="promptsList" class="prompt-list">
+            <p>Loading prompts...</p>
+        </div>
+    </div>
+
+    <script src="src/admin.js"></script>
+</body>
+</html>
