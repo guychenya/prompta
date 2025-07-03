@@ -29,11 +29,14 @@ class PromptsHub {
         try {
             // Try to load from the data directory
             const response = await fetch('/data/prompts.json');
+            console.log('Fetch response:', response); // Log the raw response
             if (!response.ok) {
                 const errorText = await response.text(); // Try to read response body for more info
                 throw new Error(`Could not load prompts data: ${response.status} ${response.statusText} - ${errorText}`);
             }
-            this.prompts = (await response.json()).prompts;
+            const jsonData = await response.json(); // Parse JSON
+            console.log('Parsed JSON data:', jsonData); // Log the parsed JSON object
+            this.prompts = jsonData.prompts;
             this.filteredPrompts = [...this.prompts];
         } catch (error) {
             console.error('Error loading prompts:', error);
