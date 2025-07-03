@@ -1,0 +1,40 @@
+{
+  "id": "cross-platform-app-development",
+  "title": "Cross-Platform App Development",
+  "description": "Enlisting ChatGPT's assistance to automate cross-platform app development can significantly reduce the development cycle time. With ChatGPT's vast knowledge base on various programming languages and a...",
+  "category": "template",
+  "subcategory": "development",
+  "complexity": "intermediate",
+  "format": "template",
+  "target_ai": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "any"
+  ],
+  "use_cases": [
+    "business",
+    "development"
+  ],
+  "tags": [
+    "programming",
+    "softwaredev",
+    "development"
+  ],
+  "source": {
+    "repository": "AI-Prompt-Database",
+    "license": "MIT",
+    "attribution": "https://github.com/Vazno/AI-Prompt-Database"
+  },
+  "prompt_text": "I am working on a cross-platform app development project that needs to run on [list_of_platforms]. The project involves [list_of_features] and needs to be completed within [project_duration]. Can you recommend the most appropriate programming language(s) and app development framework(s) that would be best suited for this project, along with any necessary libraries or tools? Additionally, please provide any relevant examples or documentation to help guide us through the development process.",
+  "usage_example": "Fill in the template variables: list_of_features, list_of_platforms, project_duration",
+  "created_date": "2024-01-01",
+  "last_updated": "2024-01-01",
+  "reason_to_use": "Enlisting ChatGPT's assistance to automate cross-platform app development can significantly reduce the development cycle time. With ChatGPT's vast knowledge base on various programming languages and app development frameworks, it can recommend the most appropriate approach and tools for the specific project requirements. This saves developers from the tedious task of researching and experimenting with different technologies, enabling them to focus on building high-quality apps that run on multiple platforms.",
+  "template_variables": [
+    "list_of_features",
+    "list_of_platforms",
+    "project_duration"
+  ],
+  "original_category": "Software-Dev"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "designing-for-inclusivity-and-accessibility",
+  "title": "Designing for Inclusivity and Accessibility",
+  "description": "Enlisting ChatGPT's assistance to automate designing for inclusivity and accessibility can bring about a new level of accessibility and inclusivity. With a vast knowledge base, ChatGPT can help design...",
+  "category": "template",
+  "subcategory": "ux-design",
+  "complexity": "basic",
+  "format": "template",
+  "target_ai": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "any"
+  ],
+  "use_cases": [
+    "design",
+    "business"
+  ],
+  "tags": [
+    "ux",
+    "accessibility"
+  ],
+  "source": {
+    "repository": "AI-Prompt-Database",
+    "license": "MIT",
+    "attribution": "https://github.com/Vazno/AI-Prompt-Database"
+  },
+  "prompt_text": "As a UX designer, I am working on designing an [application/website/product] that needs to be inclusive and accessible to all users. Can you suggest some accessibility features and best practices that I should consider? Our target audience includes people with diverse abilities such as [visual impairments, hearing impairments, cognitive disabilities, motor impairments]. Also, can you suggest some design considerations that I should keep in mind to ensure that the product is easy to use for people with diverse abilities?",
+  "usage_example": "Fill in the template variables: visual impairments, hearing impairments, cognitive disabilities, motor impairments, application/website/product",
+  "created_date": "2024-01-01",
+  "last_updated": "2024-01-01",
+  "reason_to_use": "Enlisting ChatGPT's assistance to automate designing for inclusivity and accessibility can bring about a new level of accessibility and inclusivity. With a vast knowledge base, ChatGPT can help designers create accessible designs by suggesting accessibility features, best practices, and considerations for the diverse range of abilities. This reduces the time and effort spent on researching and implementing accessibility solutions, enabling UX designers to focus on creating experiences that cater to a broader audience.",
+  "template_variables": [
+    "visual impairments, hearing impairments, cognitive disabilities, motor impairments",
+    "application/website/product"
+  ],
+  "original_category": "UX"
+}

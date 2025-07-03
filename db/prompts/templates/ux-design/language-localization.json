@@ -1,0 +1,41 @@
+{
+  "id": "language-localization",
+  "title": "Language Localization",
+  "description": "Utilizing ChatGPT to automate language localization in UX design brings about significant benefits. ChatGPT can assist in translating text and providing recommendations for cultural nuances, ensuring ...",
+  "category": "template",
+  "subcategory": "ux-design",
+  "complexity": "intermediate",
+  "format": "template",
+  "target_ai": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "any"
+  ],
+  "use_cases": [
+    "design",
+    "business"
+  ],
+  "tags": [
+    "user",
+    "design",
+    "ux",
+    "experience"
+  ],
+  "source": {
+    "repository": "AI-Prompt-Database",
+    "license": "MIT",
+    "attribution": "https://github.com/Vazno/AI-Prompt-Database"
+  },
+  "prompt_text": "I am working on a [project_name] UX design and need to localize the text for [target_language]. The text includes [list_of_text_items]. Can you provide translations for each item and recommend any cultural nuances that should be considered for a seamless user experience in [target_language]?",
+  "usage_example": "Fill in the template variables: project_name, list_of_text_items, target_language",
+  "created_date": "2024-01-01",
+  "last_updated": "2024-01-01",
+  "reason_to_use": "Utilizing ChatGPT to automate language localization in UX design brings about significant benefits. ChatGPT can assist in translating text and providing recommendations for cultural nuances, ensuring a seamless user experience across different languages and cultures. This saves UX designers considerable time and resources while also improving the user experience for a global audience.",
+  "template_variables": [
+    "project_name",
+    "list_of_text_items",
+    "target_language"
+  ],
+  "original_category": "UX"
+}

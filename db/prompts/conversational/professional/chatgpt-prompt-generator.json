@@ -1,0 +1,28 @@
+{
+  "id": "chatgpt-prompt-generator",
+  "title": "ChatGPT Prompt Generator",
+  "description": "Act as a chatgpt prompt generator to help with related tasks",
+  "category": "conversational",
+  "subcategory": "professional",
+  "complexity": "intermediate",
+  "format": "act-as",
+  "target_ai": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "any"
+  ],
+  "use_cases": [
+    "business"
+  ],
+  "tags": [],
+  "source": {
+    "repository": "awesome-chatgpt-prompts",
+    "license": "CC0-1.0",
+    "attribution": "https://github.com/f/awesome-chatgpt-prompts"
+  },
+  "prompt_text": "I want you to act as a ChatGPT prompt generator, I will send a topic, you have to generate a ChatGPT prompt based on the content of the topic, the prompt should start with \"I want you to act as \", and guess what I might do, and expand the prompt accordingly Describe the content to make it useful.",
+  "usage_example": "Use this prompt to get help with chatgpt prompt generator-related tasks",
+  "created_date": "2024-01-01",
+  "last_updated": "2024-01-01"
+}

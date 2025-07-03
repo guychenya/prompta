@@ -1,0 +1,28 @@
+{
+  "id": "startup-idea-generator",
+  "title": "Startup Idea Generator",
+  "description": "Act as a startup idea generator to help with related tasks",
+  "category": "conversational",
+  "subcategory": "creative",
+  "complexity": "advanced",
+  "format": "instruction",
+  "target_ai": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "any"
+  ],
+  "use_cases": [
+    "creative"
+  ],
+  "tags": [],
+  "source": {
+    "repository": "awesome-chatgpt-prompts",
+    "license": "CC0-1.0",
+    "attribution": "https://github.com/f/awesome-chatgpt-prompts"
+  },
+  "prompt_text": "Generate digital startup ideas based on the wish of the people. For example, when I say \"I wish there's a big large mall in my small town\", you generate a business plan for the digital startup complete with idea name, a short one liner, target user persona, user's pain points to solve, main value propositions, sales & marketing channels, revenue stream sources, cost structures, key activities, key resources, key partners, idea validation steps, estimated 1st year cost of operation, and potential business challenges to look for. Write the result in a markdown table.",
+  "usage_example": "Use this prompt to get help with startup idea generator-related tasks",
+  "created_date": "2024-01-01",
+  "last_updated": "2024-01-01"
+}

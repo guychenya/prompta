@@ -1,0 +1,30 @@
+{
+  "id": "language-detector",
+  "title": "Language Detector",
+  "description": "Act as a language detector to help with related tasks",
+  "category": "conversational",
+  "subcategory": "educational",
+  "complexity": "intermediate",
+  "format": "instruction",
+  "target_ai": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "any"
+  ],
+  "use_cases": [
+    "business"
+  ],
+  "tags": [
+    "language"
+  ],
+  "source": {
+    "repository": "awesome-chatgpt-prompts",
+    "license": "CC0-1.0",
+    "attribution": "https://github.com/f/awesome-chatgpt-prompts"
+  },
+  "prompt_text": "I want you act as a language detector. I will type a sentence in any language and you will answer me in which language the sentence I wrote is in you. Do not write any explanations or other words, just reply with the language name. My first sentence is \"Kiel vi fartas? Kiel iras via tago?",
+  "usage_example": "Use this prompt to get help with language detector-related tasks",
+  "created_date": "2024-01-01",
+  "last_updated": "2024-01-01"
+}

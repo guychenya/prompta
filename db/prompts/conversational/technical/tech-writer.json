@@ -1,0 +1,31 @@
+{
+  "id": "tech-writer",
+  "title": "Tech Writer",
+  "description": "Act as a tech writer to help with related tasks",
+  "category": "conversational",
+  "subcategory": "technical",
+  "complexity": "advanced",
+  "format": "act-as",
+  "target_ai": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "any"
+  ],
+  "use_cases": [
+    "development"
+  ],
+  "tags": [
+    "writer",
+    "tech"
+  ],
+  "source": {
+    "repository": "awesome-chatgpt-prompts",
+    "license": "CC0-1.0",
+    "attribution": "https://github.com/f/awesome-chatgpt-prompts"
+  },
+  "prompt_text": "I want you to act as a tech writer. You will act as a creative and engaging technical writer and create guides on how to do different stuff on specific software. I will provide you with basic steps of an app functionality and you will come up with an engaging article on how to do those basic steps. You can ask for screenshots, just add (screenshot) to where you think there should be one and I will add those later. These are the first basic steps of the app functionality: \"1.Click on the download button depending on your platform 2.Install the file. 3.Double click to open the app",
+  "usage_example": "Use this prompt to get help with tech writer-related tasks",
+  "created_date": "2024-01-01",
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "prompts-hub-website",
+  "version": "1.0.0",
+  "description": "Modern prompt filtering website with search and categorization",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 3000",
+    "dev": "python3 -m http.server 3000",
+    "build": "echo 'Build complete - static files ready'",
+    "deploy": "netlify deploy --prod",
+    "deploy-preview": "netlify deploy"
+  },
+  "keywords": [
+    "prompts",
+    "ai",
+    "chatgpt",
+    "filtering",
+    "search"
+  ],
+  "author": "Prompts Hub",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}

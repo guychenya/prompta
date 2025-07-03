@@ -1,0 +1,630 @@
+{
+  "design": {
+    "name": "design",
+    "count": 75,
+    "categories": [
+      "system",
+      "conversational",
+      "template"
+    ],
+    "display_name": "Design"
+  },
+  "system-prompt": {
+    "name": "system-prompt",
+    "count": 73,
+    "categories": [
+      "system"
+    ],
+    "display_name": "System Prompt"
+  },
+  "development": {
+    "name": "development",
+    "count": 68,
+    "categories": [
+      "system",
+      "conversational",
+      "template"
+    ],
+    "display_name": "Development"
+  },
+  "utility": {
+    "name": "utility",
+    "count": 16,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Utility"
+  },
+  "language-model": {
+    "name": "language-model",
+    "count": 16,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Language Model"
+  },
+  "educational": {
+    "name": "educational",
+    "count": 14,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Educational"
+  },
+  "coach": {
+    "name": "coach",
+    "count": 13,
+    "categories": [
+      "system",
+      "conversational"
+    ],
+    "display_name": "Coach"
+  },
+  "entertainment": {
+    "name": "entertainment",
+    "count": 11,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Entertainment"
+  },
+  "anthropic": {
+    "name": "anthropic",
+    "count": 11,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Anthropic"
+  },
+  "claude": {
+    "name": "claude",
+    "count": 11,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Claude"
+  },
+  "tutor": {
+    "name": "tutor",
+    "count": 6,
+    "categories": [
+      "system",
+      "conversational"
+    ],
+    "display_name": "Tutor"
+  },
+  "language": {
+    "name": "language",
+    "count": 6,
+    "categories": [
+      "system",
+      "conversational"
+    ],
+    "display_name": "Language"
+  },
+  "guide": {
+    "name": "guide",
+    "count": 6,
+    "categories": [
+      "system",
+      "conversational"
+    ],
+    "display_name": "Guide"
+  },
+  "expert": {
+    "name": "expert",
+    "count": 6,
+    "categories": [
+      "system",
+      "conversational"
+    ],
+    "display_name": "Expert"
+  },
+  "developer": {
+    "name": "developer",
+    "count": 6,
+    "categories": [
+      "conversational"
+    ],
+    "display_name": "Developer"
+  },
+  "teacher": {
+    "name": "teacher",
+    "count": 5,
+    "categories": [
+      "conversational"
+    ],
+    "display_name": "Teacher"
+  },
+  "critic": {
+    "name": "critic",
+    "count": 5,
+    "categories": [
+      "system",
+      "conversational"
+    ],
+    "display_name": "Critic"
+  },
+  "tech": {
+    "name": "tech",
+    "count": 5,
+    "categories": [
+      "conversational"
+    ],
+    "display_name": "Tech"
+  },
+  "others": {
+    "name": "others",
+    "count": 5,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Others"
+  },
+  "web-development": {
+    "name": "web-development",
+    "count": 5,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Web Development"
+  },
+  "openai": {
+    "name": "openai",
+    "count": 5,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Openai"
+  },
+  "chatgpt": {
+    "name": "chatgpt",
+    "count": 5,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Chatgpt"
+  },
+  "marketing": {
+    "name": "marketing",
+    "count": 5,
+    "categories": [
+      "template"
+    ],
+    "display_name": "Marketing"
+  },
+  "productmanagement": {
+    "name": "productmanagement",
+    "count": 5,
+    "categories": [
+      "template"
+    ],
+    "display_name": "Productmanagement"
+  },
+  "user": {
+    "name": "user",
+    "count": 5,
+    "categories": [
+      "template"
+    ],
+    "display_name": "User"
+  },
+  "ux": {
+    "name": "ux",
+    "count": 5,
+    "categories": [
+      "template"
+    ],
+    "display_name": "Ux"
+  },
+  "travel": {
+    "name": "travel",
+    "count": 4,
+    "categories": [
+      "system",
+      "conversational"
+    ],
+    "display_name": "Travel"
+  },
+  "specialist": {
+    "name": "specialist",
+    "count": 4,
+    "categories": [
+      "system",
+      "conversational"
+    ],
+    "display_name": "Specialist"
+  },
+  "advisor": {
+    "name": "advisor",
+    "count": 4,
+    "categories": [
+      "system",
+      "conversational"
+    ],
+    "display_name": "Advisor"
+  },
+  "manager": {
+    "name": "manager",
+    "count": 4,
+    "categories": [
+      "conversational"
+    ],
+    "display_name": "Manager"
+  },
+  "ui-generation": {
+    "name": "ui-generation",
+    "count": 4,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Ui Generation"
+  },
+  "vercel": {
+    "name": "vercel",
+    "count": 4,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Vercel"
+  },
+  "v0": {
+    "name": "v0",
+    "count": 4,
+    "categories": [
+      "system"
+    ],
+    "display_name": "V0"
+  },
+  "content": {
+    "name": "content",
+    "count": 4,
+    "categories": [
+      "template"
+    ],
+    "display_name": "Content"
+  },
+  "softwaredev": {
+    "name": "softwaredev",
+    "count": 4,
+    "categories": [
+      "template"
+    ],
+    "display_name": "Softwaredev"
+  },
+  "fitness": {
+    "name": "fitness",
+    "count": 3,
+    "categories": [
+      "system",
+      "conversational"
+    ],
+    "display_name": "Fitness"
+  },
+  "reviewer": {
+    "name": "reviewer",
+    "count": 3,
+    "categories": [
+      "conversational"
+    ],
+    "display_name": "Reviewer"
+  },
+  "artist": {
+    "name": "artist",
+    "count": 3,
+    "categories": [
+      "conversational"
+    ],
+    "display_name": "Artist"
+  },
+  "music": {
+    "name": "music",
+    "count": 3,
+    "categories": [
+      "system",
+      "conversational"
+    ],
+    "display_name": "Music"
+  },
+  "recommender": {
+    "name": "recommender",
+    "count": 3,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Recommender"
+  },
+  "assistant": {
+    "name": "assistant",
+    "count": 3,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Assistant"
+  },
+  "programming": {
+    "name": "programming",
+    "count": 3,
+    "categories": [
+      "template"
+    ],
+    "display_name": "Programming"
+  },
+  "experience": {
+    "name": "experience",
+    "count": 3,
+    "categories": [
+      "template"
+    ],
+    "display_name": "Experience"
+  },
+  "writing": {
+    "name": "writing",
+    "count": 2,
+    "categories": [
+      "system",
+      "conversational"
+    ],
+    "display_name": "Writing"
+  },
+  "writer": {
+    "name": "writer",
+    "count": 2,
+    "categories": [
+      "conversational"
+    ],
+    "display_name": "Writer"
+  },
+  "math": {
+    "name": "math",
+    "count": 2,
+    "categories": [
+      "system",
+      "conversational"
+    ],
+    "display_name": "Math"
+  },
+  "history": {
+    "name": "history",
+    "count": 2,
+    "categories": [
+      "system",
+      "conversational"
+    ],
+    "display_name": "History"
+  },
+  "food": {
+    "name": "food",
+    "count": 2,
+    "categories": [
+      "conversational"
+    ],
+    "display_name": "Food"
+  },
+  "analyst": {
+    "name": "analyst",
+    "count": 2,
+    "categories": [
+      "conversational"
+    ],
+    "display_name": "Analyst"
+  },
+  "consultant": {
+    "name": "consultant",
+    "count": 2,
+    "categories": [
+      "conversational"
+    ],
+    "display_name": "Consultant"
+  },
+  "engineer": {
+    "name": "engineer",
+    "count": 2,
+    "categories": [
+      "conversational"
+    ],
+    "display_name": "Engineer"
+  },
+  "art": {
+    "name": "art",
+    "count": 2,
+    "categories": [
+      "system",
+      "conversational"
+    ],
+    "display_name": "Art"
+  },
+  "designer": {
+    "name": "designer",
+    "count": 2,
+    "categories": [
+      "conversational"
+    ],
+    "display_name": "Designer"
+  },
+  "creative": {
+    "name": "creative",
+    "count": 2,
+    "categories": [
+      "system",
+      "conversational"
+    ],
+    "display_name": "Creative"
+  },
+  "planner": {
+    "name": "planner",
+    "count": 2,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Planner"
+  },
+  "generator": {
+    "name": "generator",
+    "count": 2,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Generator"
+  },
+  "devin": {
+    "name": "devin",
+    "count": 2,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Devin"
+  },
+  "ai-engineer": {
+    "name": "ai-engineer",
+    "count": 2,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Ai Engineer"
+  },
+  "autonomous-coding": {
+    "name": "autonomous-coding",
+    "count": 2,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Autonomous Coding"
+  },
+  "campaign": {
+    "name": "campaign",
+    "count": 2,
+    "categories": [
+      "template"
+    ],
+    "display_name": "Campaign"
+  },
+  "code": {
+    "name": "code",
+    "count": 2,
+    "categories": [
+      "template"
+    ],
+    "display_name": "Code"
+  },
+  "health": {
+    "name": "health",
+    "count": 1,
+    "categories": [
+      "conversational"
+    ],
+    "display_name": "Health"
+  },
+  "security": {
+    "name": "security",
+    "count": 1,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Security"
+  },
+  "science": {
+    "name": "science",
+    "count": 1,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Science"
+  },
+  "finance": {
+    "name": "finance",
+    "count": 1,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Finance"
+  },
+  "full-stack": {
+    "name": "full-stack",
+    "count": 1,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Full Stack"
+  },
+  "bolt": {
+    "name": "bolt",
+    "count": 1,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Bolt"
+  },
+  "vscode": {
+    "name": "vscode",
+    "count": 1,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Vscode"
+  },
+  "cline": {
+    "name": "cline",
+    "count": 1,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Cline"
+  },
+  "ai-assistant": {
+    "name": "ai-assistant",
+    "count": 1,
+    "categories": [
+      "system"
+    ],
+    "display_name": "Ai Assistant"
+  },
+  "social": {
+    "name": "social",
+    "count": 1,
+    "categories": [
+      "template"
+    ],
+    "display_name": "Social"
+  },
+  "requirements": {
+    "name": "requirements",
+    "count": 1,
+    "categories": [
+      "template"
+    ],
+    "display_name": "Requirements"
+  },
+  "metrics": {
+    "name": "metrics",
+    "count": 1,
+    "categories": [
+      "template"
+    ],
+    "display_name": "Metrics"
+  },
+  "strategy": {
+    "name": "strategy",
+    "count": 1,
+    "categories": [
+      "template"
+    ],
+    "display_name": "Strategy"
+  },
+  "testing": {
+    "name": "testing",
+    "count": 1,
+    "categories": [
+      "template"
+    ],
+    "display_name": "Testing"
+  },
+  "accessibility": {
+    "name": "accessibility",
+    "count": 1,
+    "categories": [
+      "template"
+    ],
+    "display_name": "Accessibility"
+  }
+}

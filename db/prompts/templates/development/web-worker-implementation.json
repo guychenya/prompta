@@ -1,0 +1,38 @@
+{
+  "id": "web-worker-implementation",
+  "title": "Web Worker Implementation",
+  "description": "Utilizing ChatGPT to automate web worker implementation can significantly reduce the workload of software developers. ChatGPT can offer suggestions and best practices based on its vast knowledge base,...",
+  "category": "template",
+  "subcategory": "development",
+  "complexity": "basic",
+  "format": "template",
+  "target_ai": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "any"
+  ],
+  "use_cases": [
+    "business",
+    "development"
+  ],
+  "tags": [
+    "softwaredev",
+    "development"
+  ],
+  "source": {
+    "repository": "AI-Prompt-Database",
+    "license": "MIT",
+    "attribution": "https://github.com/Vazno/AI-Prompt-Database"
+  },
+  "prompt_text": "I am implementing [number_of_workers] web workers in my [project_name]. Can you suggest the best practices for implementing web workers to ensure optimal performance? Also, could you provide some guidance on how to properly communicate and transfer data between the main thread and the worker threads? Lastly, is there any specific consideration I should keep in mind when implementing web workers for mobile devices?",
+  "usage_example": "Fill in the template variables: project_name, number_of_workers",
+  "created_date": "2024-01-01",
+  "last_updated": "2024-01-01",
+  "reason_to_use": "Utilizing ChatGPT to automate web worker implementation can significantly reduce the workload of software developers. ChatGPT can offer suggestions and best practices based on its vast knowledge base, allowing developers to quickly and efficiently implement web workers. This streamlines the development process and enables developers to focus on more complex tasks.",
+  "template_variables": [
+    "project_name",
+    "number_of_workers"
+  ],
+  "original_category": "Software-Dev"
+}

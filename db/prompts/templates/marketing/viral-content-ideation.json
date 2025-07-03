@@ -1,0 +1,43 @@
+{
+  "id": "viral-content-ideation",
+  "title": "Viral Content Ideation",
+  "description": "Utilizing ChatGPT for viral content ideation within the marketing discipline can be a game-changer for creative brainstorming and campaign success. Drawing from a vast repository of successful viral c...",
+  "category": "template",
+  "subcategory": "marketing",
+  "complexity": "advanced",
+  "format": "template",
+  "target_ai": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "any"
+  ],
+  "use_cases": [
+    "business",
+    "creative",
+    "marketing"
+  ],
+  "tags": [
+    "content",
+    "marketing",
+    "campaign"
+  ],
+  "source": {
+    "repository": "AI-Prompt-Database",
+    "license": "MIT",
+    "attribution": "https://github.com/Vazno/AI-Prompt-Database"
+  },
+  "prompt_text": "As a viral content expert, I need your help to generate unique and engaging content ideas for our [brand_name] to promote our [product_or_service]. Our main target audience is [target_audience], and we'd like to focus on [platforms]. Please provide [number_of_ideas] viral content ideas that align with our brand values and resonate with our audience.",
+  "usage_example": "Fill in the template variables: brand_name, platforms, number_of_ideas, target_audience, product_or_service",
+  "created_date": "2024-01-01",
+  "last_updated": "2024-01-01",
+  "reason_to_use": "Utilizing ChatGPT for viral content ideation within the marketing discipline can be a game-changer for creative brainstorming and campaign success. Drawing from a vast repository of successful viral content examples, ChatGPT can generate innovative and engaging ideas tailored to specific target audiences and platforms. This empowers marketing professionals to stay ahead of trends and consistently create compelling content, while significantly reducing the time spent on ideation and enhancing overall marketing strategy.",
+  "template_variables": [
+    "brand_name",
+    "platforms",
+    "number_of_ideas",
+    "target_audience",
+    "product_or_service"
+  ],
+  "original_category": "Marketing"
+}

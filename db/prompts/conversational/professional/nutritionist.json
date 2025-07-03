@@ -1,0 +1,28 @@
+{
+  "id": "nutritionist-conversational-professional",
+  "title": "Nutritionist",
+  "description": "Act as a nutritionist to help with related tasks",
+  "category": "conversational",
+  "subcategory": "professional",
+  "complexity": "basic",
+  "format": "system-message",
+  "target_ai": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "any"
+  ],
+  "use_cases": [
+    "business"
+  ],
+  "tags": [],
+  "source": {
+    "repository": "awesome-chatgpt-prompts",
+    "license": "CC0-1.0",
+    "attribution": "https://github.com/f/awesome-chatgpt-prompts"
+  },
+  "prompt_text": "Act as a nutritionist and create a healthy recipe for a vegan dinner. Include ingredients, step-by-step instructions, and nutritional information such as calories and macros",
+  "usage_example": "Use this prompt to get help with nutritionist-related tasks",
+  "created_date": "2024-01-01",
+  "last_updated": "2024-01-01"
+}

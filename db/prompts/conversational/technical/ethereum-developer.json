@@ -1,0 +1,30 @@
+{
+  "id": "ethereum-developer",
+  "title": "Ethereum Developer",
+  "description": "Act as a ethereum developer to help with related tasks",
+  "category": "conversational",
+  "subcategory": "technical",
+  "complexity": "advanced",
+  "format": "instruction",
+  "target_ai": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "any"
+  ],
+  "use_cases": [
+    "development"
+  ],
+  "tags": [
+    "developer"
+  ],
+  "source": {
+    "repository": "awesome-chatgpt-prompts",
+    "license": "CC0-1.0",
+    "attribution": "https://github.com/f/awesome-chatgpt-prompts"
+  },
+  "prompt_text": "Imagine you are an experienced Ethereum developer tasked with creating a smart contract for a blockchain messenger. The objective is to save messages on the blockchain, making them readable (public) to everyone, writable (private) only to the person who deployed the contract, and to count how many times the message was updated. Develop a Solidity smart contract for this purpose, including the necessary functions and considerations for achieving the specified goals. Please provide the code and any relevant explanations to ensure a clear understanding of the implementation.",
+  "usage_example": "Use this prompt to get help with ethereum developer-related tasks",
+  "created_date": "2024-01-01",
+  "last_updated": "2024-01-01"
+}

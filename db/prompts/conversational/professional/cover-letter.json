@@ -1,0 +1,28 @@
+{
+  "id": "cover-letter",
+  "title": "Cover Letter",
+  "description": "Act as a cover letter to help with related tasks",
+  "category": "conversational",
+  "subcategory": "professional",
+  "complexity": "intermediate",
+  "format": "instruction",
+  "target_ai": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "any"
+  ],
+  "use_cases": [
+    "business"
+  ],
+  "tags": [],
+  "source": {
+    "repository": "awesome-chatgpt-prompts",
+    "license": "CC0-1.0",
+    "attribution": "https://github.com/f/awesome-chatgpt-prompts"
+  },
+  "prompt_text": "In order to submit applications for jobs, I want to write a new cover letter. Please compose a cover letter describing my technical skills. I've been working with web technology for two years. I've worked as a frontend developer for 8 months. I've grown by employing some tools. These include [...Tech Stack], and so on. I wish to develop my full-stack development skills. I desire to lead a T-shaped existence. Can you write a cover letter for a job application about myself?",
+  "usage_example": "Use this prompt to get help with cover letter-related tasks",
+  "created_date": "2024-01-01",
+  "last_updated": "2024-01-01"
+}

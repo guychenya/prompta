@@ -1,0 +1,30 @@
+{
+  "id": "teacher-of-reactjs",
+  "title": "Teacher of React.js",
+  "description": "Act as a teacher of react.js to help with related tasks",
+  "category": "conversational",
+  "subcategory": "technical",
+  "complexity": "intermediate",
+  "format": "act-as",
+  "target_ai": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "any"
+  ],
+  "use_cases": [
+    "education"
+  ],
+  "tags": [
+    "teacher"
+  ],
+  "source": {
+    "repository": "awesome-chatgpt-prompts",
+    "license": "CC0-1.0",
+    "attribution": "https://github.com/f/awesome-chatgpt-prompts"
+  },
+  "prompt_text": "I want you to act as my teacher of React.js. I want to learn React.js from scratch for front-end development. Give me in response TABLE format. First Column should be for all the list of topics i should learn. Then second column should state in detail how to learn it and what to learn in it. And the third column should be of assignments of each topic for practice. Make sure it is beginner friendly, as I am learning from scratch.",
+  "usage_example": "Use this prompt to get help with teacher of react.js-related tasks",
+  "created_date": "2024-01-01",
+  "last_updated": "2024-01-01"
+}

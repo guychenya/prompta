@@ -1,0 +1,42 @@
+{
+  "id": "browser-extension-development",
+  "title": "Browser Extension Development",
+  "description": "Using ChatGPT to automate browser extension development can enhance the speed and accuracy of the development process. With its knowledge of programming languages and web technologies, ChatGPT can ass...",
+  "category": "template",
+  "subcategory": "development",
+  "complexity": "intermediate",
+  "format": "template",
+  "target_ai": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "any"
+  ],
+  "use_cases": [
+    "business",
+    "development"
+  ],
+  "tags": [
+    "programming",
+    "development",
+    "softwaredev",
+    "code",
+    "testing"
+  ],
+  "source": {
+    "repository": "AI-Prompt-Database",
+    "license": "MIT",
+    "attribution": "https://github.com/Vazno/AI-Prompt-Database"
+  },
+  "prompt_text": "As a developer, I am looking to create a browser extension that [extension_function]. I am proficient in [programming_languages] and have experience with [web_technologies]. Can you suggest the best approach for developing this extension, provide code snippets for common functionalities, and suggest fixes for any errors I may encounter during development?",
+  "usage_example": "Fill in the template variables: programming_languages, web_technologies, extension_function",
+  "created_date": "2024-01-01",
+  "last_updated": "2024-01-01",
+  "reason_to_use": "Using ChatGPT to automate browser extension development can enhance the speed and accuracy of the development process. With its knowledge of programming languages and web technologies, ChatGPT can assist in identifying the best approach for extension development, provide code snippets and suggest fixes for common errors. This allows developers to focus on designing and testing their extensions, ultimately leading to a better user experience.",
+  "template_variables": [
+    "programming_languages",
+    "web_technologies",
+    "extension_function"
+  ],
+  "original_category": "Software-Dev"
+}

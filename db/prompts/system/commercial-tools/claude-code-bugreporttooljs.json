@@ -1,0 +1,33 @@
+{
+  "id": "claude-code-bugreporttooljs",
+  "title": "Claude-Code - Bugreporttool.Js",
+  "description": "System prompt for Claude-Code",
+  "category": "system",
+  "subcategory": "commercial-tools",
+  "complexity": "intermediate",
+  "format": "system-message",
+  "target_ai": [
+    "claude-code"
+  ],
+  "use_cases": [
+    "business",
+    "development"
+  ],
+  "tags": [
+    "claude",
+    "system-prompt",
+    "language-model",
+    "anthropic"
+  ],
+  "source": {
+    "repository": "awesome-ai-system-prompts",
+    "license": "MIT",
+    "attribution": "https://github.com/spdustin/awesome-ai-system-prompts"
+  },
+  "prompt_text": "async function Yz5(I) { try { let Z = await fV({ systemPrompt: [ \"Generate a concise, technical issue title (max 80 chars) for a GitHub issue based on this bug report. The title should:\", \"- Be specific and descriptive of the actual problem\", \"- Use technical terminology appropriate for a software issue\", '- For error messages, extract the key error (e.g., \"Missing Tool Result Block\" rather than the full message)', '- Start with a noun or verb (not \"Bug:\" or \"Issue:\")', \"- Be direct and clear for developers to understand the problem\", '- If you cannot determine a clear issue, use \"Bug Report: [brief description]\"', ], userPrompt: I, isNonInteractiveSession: !1, }), G = Z.message.content[0]?.type === \"text\" ? Z.message.content[0].text : \"Bug Report\"; if (G.startsWith(mw)) return j$2(I); return G; } catch (Z) { return n1(Z instanceof Error ? Z : new Error(String(Z))), j$2(I); } }",
+  "usage_example": "Use as system prompt for Claude-Code",
+  "created_date": "2024-01-01",
+  "last_updated": "2024-01-01",
+  "tool_name": "Claude-Code",
+  "original_filename": "BugReportTool.js"
+}

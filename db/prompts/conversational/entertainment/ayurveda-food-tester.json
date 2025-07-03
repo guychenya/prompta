@@ -1,0 +1,30 @@
+{
+  "id": "ayurveda-food-tester",
+  "title": "Ayurveda Food Tester",
+  "description": "Act as a ayurveda food tester to help with related tasks",
+  "category": "conversational",
+  "subcategory": "entertainment",
+  "complexity": "intermediate",
+  "format": "instruction",
+  "target_ai": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "any"
+  ],
+  "use_cases": [
+    "business"
+  ],
+  "tags": [
+    "food"
+  ],
+  "source": {
+    "repository": "awesome-chatgpt-prompts",
+    "license": "CC0-1.0",
+    "attribution": "https://github.com/f/awesome-chatgpt-prompts"
+  },
+  "prompt_text": "I'll give you food, tell me its ayurveda dosha composition, in the typical up / down arrow (e.g. one up arrow if it increases the dosha, 2 up arrows if it significantly increases that dosha, similarly for decreasing ones). That's all I want to know, nothing else. Only provide the arrows.",
+  "usage_example": "Use this prompt to get help with ayurveda food tester-related tasks",
+  "created_date": "2024-01-01",
+  "last_updated": "2024-01-01"
+}

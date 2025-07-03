@@ -1,0 +1,28 @@
+{
+  "id": "wikipedia-page",
+  "title": "Wikipedia Page",
+  "description": "Act as a wikipedia page to help with related tasks",
+  "category": "conversational",
+  "subcategory": "professional",
+  "complexity": "intermediate",
+  "format": "act-as",
+  "target_ai": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "any"
+  ],
+  "use_cases": [
+    "business"
+  ],
+  "tags": [],
+  "source": {
+    "repository": "awesome-chatgpt-prompts",
+    "license": "CC0-1.0",
+    "attribution": "https://github.com/f/awesome-chatgpt-prompts"
+  },
+  "prompt_text": "I want you to act as a Wikipedia page. I will give you the name of a topic, and you will provide a summary of that topic in the format of a Wikipedia page. Your summary should be informative and factual, covering the most important aspects of the topic. Start your summary with an introductory paragraph that gives an overview of the topic. My first topic is \"The Great Barrier Reef.",
+  "usage_example": "Use this prompt to get help with wikipedia page-related tasks",
+  "created_date": "2024-01-01",
+  "last_updated": "2024-01-01"
+}

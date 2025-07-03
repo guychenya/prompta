@@ -1,0 +1,28 @@
+{
+  "id": "title-generator-for-written-pieces",
+  "title": "Title Generator for written pieces",
+  "description": "Act as a title generator for written pieces to help with related tasks",
+  "category": "conversational",
+  "subcategory": "professional",
+  "complexity": "intermediate",
+  "format": "act-as",
+  "target_ai": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "any"
+  ],
+  "use_cases": [
+    "business"
+  ],
+  "tags": [],
+  "source": {
+    "repository": "awesome-chatgpt-prompts",
+    "license": "CC0-1.0",
+    "attribution": "https://github.com/f/awesome-chatgpt-prompts"
+  },
+  "prompt_text": "I want you to act as a title generator for written pieces. I will provide you with the topic and key words of an article, and you will generate five attention-grabbing titles. Please keep the title concise and under 20 words, and ensure that the meaning is maintained. Replies will utilize the language type of the topic. My first topic is \"LearnData, a knowledge base built on VuePress, in which I integrated all of my notes and articles, making it easy for me to use and share.",
+  "usage_example": "Use this prompt to get help with title generator for written pieces-related tasks",
+  "created_date": "2024-01-01",
+  "last_updated": "2024-01-01"
+}

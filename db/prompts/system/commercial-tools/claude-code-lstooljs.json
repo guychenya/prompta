@@ -1,0 +1,33 @@
+{
+  "id": "claude-code-lstooljs",
+  "title": "Claude-Code - Lstool.Js",
+  "description": "System prompt for Claude-Code",
+  "category": "system",
+  "subcategory": "commercial-tools",
+  "complexity": "basic",
+  "format": "system-message",
+  "target_ai": [
+    "claude-code"
+  ],
+  "use_cases": [
+    "business",
+    "development"
+  ],
+  "tags": [
+    "claude",
+    "system-prompt",
+    "language-model",
+    "anthropic"
+  ],
+  "source": {
+    "repository": "awesome-ai-system-prompts",
+    "license": "MIT",
+    "attribution": "https://github.com/spdustin/awesome-ai-system-prompts"
+  },
+  "prompt_text": "var jc2 = `Write a file to the local filesystem. Overwrites the existing file if there is one. Before using this tool: 1. Use the ReadFile tool to understand the file's contents and context 2. Directory Verification (only applicable when creating new files): - Use the LS tool to verify the parent directory exists and is the correct location`;",
+  "usage_example": "Use as system prompt for Claude-Code",
+  "created_date": "2024-01-01",
+  "last_updated": "2024-01-01",
+  "tool_name": "Claude-Code",
+  "original_filename": "LSTool.js"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "synonym-finder",
+  "title": "Synonym Finder",
+  "description": "Act as a synonym finder to help with related tasks",
+  "category": "conversational",
+  "subcategory": "professional",
+  "complexity": "intermediate",
+  "format": "act-as",
+  "target_ai": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "any"
+  ],
+  "use_cases": [
+    "business"
+  ],
+  "tags": [],
+  "source": {
+    "repository": "awesome-chatgpt-prompts",
+    "license": "CC0-1.0",
+    "attribution": "https://github.com/f/awesome-chatgpt-prompts"
+  },
+  "prompt_text": "I want you to act as a synonyms provider. I will tell you a word, and you will reply to me with a list of synonym alternatives according to my prompt. Provide a max of 10 synonyms per prompt. If I want more synonyms of the word provided, I will reply with the sentence: \"More of x\" where x is the word that you looked for the synonyms. You will only reply the words list, and nothing else. Words should exist. Do not write explanations. Reply \"OK\" to confirm.",
+  "usage_example": "Use this prompt to get help with synonym finder-related tasks",
+  "created_date": "2024-01-01",
+  "last_updated": "2024-01-01"
+}

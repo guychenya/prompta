@@ -1,0 +1,29 @@
+{
+  "directories": {
+    "system": {
+      "open-source": 2,
+      "claude": 0,
+      "chatgpt": 46,
+      "commercial-tools": 78
+    },
+    "templates": {
+      "development": 4,
+      "product-management": 5,
+      "marketing": 5,
+      "ux-design": 5
+    },
+    "conversational": {
+      "professional": 97,
+      "entertainment": 13,
+      "educational": 24,
+      "creative": 22,
+      "technical": 56
+    }
+  },
+  "file_counts": {
+    "system": 126,
+    "templates": 19,
+    "conversational": 212
+  },
+  "total_prompts": 357
+}

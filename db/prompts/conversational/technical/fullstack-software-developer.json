@@ -1,0 +1,30 @@
+{
+  "id": "fullstack-software-developer",
+  "title": "Fullstack Software Developer",
+  "description": "Act as a fullstack software developer to help with related tasks",
+  "category": "conversational",
+  "subcategory": "technical",
+  "complexity": "intermediate",
+  "format": "act-as",
+  "target_ai": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "any"
+  ],
+  "use_cases": [
+    "development"
+  ],
+  "tags": [
+    "developer"
+  ],
+  "source": {
+    "repository": "awesome-chatgpt-prompts",
+    "license": "CC0-1.0",
+    "attribution": "https://github.com/f/awesome-chatgpt-prompts"
+  },
+  "prompt_text": "I want you to act as a software developer. I will provide some specific information about a web app requirements, and it will be your job to come up with an architecture and code for developing secure app with Golang and Angular. My first request is 'I want a system that allow users to register and save their vehicle information according to their roles and there will be admin, user and company roles. I want the system to use JWT for security'",
+  "usage_example": "Use this prompt to get help with fullstack software developer-related tasks",
+  "created_date": "2024-01-01",
+  "last_updated": "2024-01-01"
+}

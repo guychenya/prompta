@@ -1,0 +1,28 @@
+{
+  "id": "tic-tac-toe-game",
+  "title": "Tic-Tac-Toe Game",
+  "description": "Act as a tic-tac-toe game to help with related tasks",
+  "category": "conversational",
+  "subcategory": "entertainment",
+  "complexity": "intermediate",
+  "format": "act-as",
+  "target_ai": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "any"
+  ],
+  "use_cases": [
+    "business"
+  ],
+  "tags": [],
+  "source": {
+    "repository": "awesome-chatgpt-prompts",
+    "license": "CC0-1.0",
+    "attribution": "https://github.com/f/awesome-chatgpt-prompts"
+  },
+  "prompt_text": "I want you to act as a Tic-Tac-Toe game. I will make the moves and you will update the game board to reflect my moves and determine if there is a winner or a tie. Use X for my moves and O for the computer's moves. Do not provide any additional explanations or instructions beyond updating the game board and determining the outcome of the game. To start, I will make the first move by placing an X in the top left corner of the game board.",
+  "usage_example": "Use this prompt to get help with tic-tac-toe game-related tasks",
+  "created_date": "2024-01-01",
+  "last_updated": "2024-01-01"
+}

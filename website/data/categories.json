@@ -1,0 +1,92 @@
+{
+  "conversational": {
+    "name": "Conversational Prompts",
+    "description": "Role-playing and conversational AI prompts for various scenarios",
+    "subcategories": {
+      "educational": {
+        "name": "Educational",
+        "description": "Prompts for learning, teaching, and educational assistance",
+        "icon": "graduation-cap",
+        "color": "#3B82F6"
+      },
+      "entertainment": {
+        "name": "Entertainment",
+        "description": "Fun and engaging prompts for entertainment purposes",
+        "icon": "gamepad-2",
+        "color": "#10B981"
+      },
+      "professional": {
+        "name": "Professional",
+        "description": "Business and professional service prompts",
+        "icon": "briefcase",
+        "color": "#8B5CF6"
+      },
+      "technical": {
+        "name": "Technical",
+        "description": "Technology and development-focused prompts",
+        "icon": "code",
+        "color": "#F59E0B"
+      },
+      "creative": {
+        "name": "Creative",
+        "description": "Creative writing, art, and design prompts",
+        "icon": "palette",
+        "color": "#EF4444"
+      }
+    }
+  },
+  "system": {
+    "name": "System Prompts",
+    "description": "System-level prompts that define AI behavior and capabilities",
+    "subcategories": {
+      "chatgpt": {
+        "name": "ChatGPT",
+        "description": "System prompts specifically designed for ChatGPT",
+        "icon": "bot",
+        "color": "#059669"
+      },
+      "commercial-tools": {
+        "name": "Commercial Tools",
+        "description": "System prompts for commercial AI tools and platforms",
+        "icon": "building",
+        "color": "#7C3AED"
+      },
+      "open-source": {
+        "name": "Open Source",
+        "description": "System prompts for open-source AI tools",
+        "icon": "github",
+        "color": "#1F2937"
+      }
+    }
+  },
+  "template": {
+    "name": "Template Prompts",
+    "description": "Structured template prompts with variables for specific use cases",
+    "subcategories": {
+      "marketing": {
+        "name": "Marketing",
+        "description": "Marketing and advertising prompt templates",
+        "icon": "megaphone",
+        "color": "#DC2626"
+      },
+      "product-management": {
+        "name": "Product Management",
+        "description": "Product management and strategy prompt templates",
+        "icon": "package",
+        "color": "#2563EB"
+      },
+      "development": {
+        "name": "Development",
+        "description": "Software development prompt templates",
+        "icon": "terminal",
+        "color": "#059669"
+      },
+      "ux-design": {
+        "name": "UX Design",
+        "description": "User experience and design prompt templates",
+        "icon": "paintbrush",
+        "color": "#7C2D12"
+      }
+    }
+  }
+}

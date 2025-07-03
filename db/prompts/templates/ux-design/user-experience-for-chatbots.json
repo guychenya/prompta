@@ -1,0 +1,40 @@
+{
+  "id": "user-experience-for-chatbots",
+  "title": "User Experience for Chatbots",
+  "description": "As a UX designer, ensuring that chatbots provide an optimal user experience is crucial. By utilizing ChatGPT to automate the UX design process for chatbots, designers can easily create conversational ...",
+  "category": "template",
+  "subcategory": "ux-design",
+  "complexity": "basic",
+  "format": "template",
+  "target_ai": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "any"
+  ],
+  "use_cases": [
+    "design",
+    "business"
+  ],
+  "tags": [
+    "user",
+    "design",
+    "ux",
+    "experience"
+  ],
+  "source": {
+    "repository": "AI-Prompt-Database",
+    "license": "MIT",
+    "attribution": "https://github.com/Vazno/AI-Prompt-Database"
+  },
+  "prompt_text": "I am designing a chatbot that will be used for [purpose_of_chatbot]. The chatbot needs to have a conversational flow that is intuitive, user-friendly and efficient. Could you provide a list of potential conversation starters that the user might have? Additionally, could you suggest [number_of_responses] potential responses to each conversation starter that the chatbot could use to keep the conversation flowing smoothly?",
+  "usage_example": "Fill in the template variables: number_of_responses, purpose_of_chatbot",
+  "created_date": "2024-01-01",
+  "last_updated": "2024-01-01",
+  "reason_to_use": "As a UX designer, ensuring that chatbots provide an optimal user experience is crucial. By utilizing ChatGPT to automate the UX design process for chatbots, designers can easily create conversational flows that are intuitive, user-friendly, and efficient. ChatGPT's extensive language processing capabilities enable it to understand natural human language and tailor responses to user needs, ultimately improving the overall user experience of the chatbot.",
+  "template_variables": [
+    "number_of_responses",
+    "purpose_of_chatbot"
+  ],
+  "original_category": "UX"
+}

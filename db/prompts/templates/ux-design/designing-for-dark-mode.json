@@ -1,0 +1,39 @@
+{
+  "id": "designing-for-dark-mode",
+  "title": "Designing for Dark Mode",
+  "description": "Incorporating ChatGPT into the UX design process for Dark Mode can lead to more efficient and creative design solutions. ChatGPT can provide insights and recommendations based on its vast knowledge of...",
+  "category": "template",
+  "subcategory": "ux-design",
+  "complexity": "basic",
+  "format": "template",
+  "target_ai": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "any"
+  ],
+  "use_cases": [
+    "design",
+    "business"
+  ],
+  "tags": [
+    "user",
+    "design",
+    "ux",
+    "experience"
+  ],
+  "source": {
+    "repository": "AI-Prompt-Database",
+    "license": "MIT",
+    "attribution": "https://github.com/Vazno/AI-Prompt-Database"
+  },
+  "prompt_text": "I am designing a new app interface that incorporates Dark Mode. Can you suggest design best practices and recommendations for creating a visually pleasing and user-friendly interface? My primary considerations are [list_of_primary_considerations], and I want to ensure that my design is accessible to users with visual impairments.",
+  "usage_example": "Fill in the template variables: list_of_primary_considerations",
+  "created_date": "2024-01-01",
+  "last_updated": "2024-01-01",
+  "reason_to_use": "Incorporating ChatGPT into the UX design process for Dark Mode can lead to more efficient and creative design solutions. ChatGPT can provide insights and recommendations based on its vast knowledge of design patterns and user preferences, allowing designers to quickly iterate and refine their designs. This not only saves time but also enhances the user experience by creating designs that are aesthetically pleasing and easy to use in low-light environments.",
+  "template_variables": [
+    "list_of_primary_considerations"
+  ],
+  "original_category": "UX"
+}

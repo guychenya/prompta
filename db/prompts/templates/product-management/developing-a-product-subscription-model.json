@@ -1,0 +1,41 @@
+{
+  "id": "developing-a-product-subscription-model",
+  "title": "Developing a Product Subscription Model",
+  "description": "Employing ChatGPT to automate product subscription model development can greatly benefit product managers. With its vast knowledge base, ChatGPT can offer suggestions for pricing, subscription tiers, ...",
+  "category": "template",
+  "subcategory": "product-management",
+  "complexity": "advanced",
+  "format": "template",
+  "target_ai": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "any"
+  ],
+  "use_cases": [
+    "business",
+    "product-management"
+  ],
+  "tags": [
+    "productmanagement",
+    "user"
+  ],
+  "source": {
+    "repository": "AI-Prompt-Database",
+    "license": "MIT",
+    "attribution": "https://github.com/Vazno/AI-Prompt-Database"
+  },
+  "prompt_text": "As a product manager, I am developing a subscription model for [product_name]. Our target audience is [target_audience], and we aim to offer [number_of_tiers] subscription tiers. Each tier should offer [tier_features] and cost [tier_price]. Can you provide recommendations for pricing, subscription tiers, and payment plans based on industry standards and user behavior patterns? Additionally, can you suggest any potential risks or challenges we may face and how we can mitigate them?",
+  "usage_example": "Fill in the template variables: tier_price, tier_features, number_of_tiers, target_audience, product_name",
+  "created_date": "2024-01-01",
+  "last_updated": "2024-01-01",
+  "reason_to_use": "Employing ChatGPT to automate product subscription model development can greatly benefit product managers. With its vast knowledge base, ChatGPT can offer suggestions for pricing, subscription tiers, and payment plans based on industry standards and user behavior patterns. This not only saves time but also provides valuable insights, allowing product managers to make data-driven decisions and optimize revenue streams.",
+  "template_variables": [
+    "tier_price",
+    "tier_features",
+    "number_of_tiers",
+    "target_audience",
+    "product_name"
+  ],
+  "original_category": "Product-Management"
+}

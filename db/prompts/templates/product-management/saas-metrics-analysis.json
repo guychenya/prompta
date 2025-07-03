@@ -1,0 +1,40 @@
+{
+  "id": "saas-metrics-analysis",
+  "title": "SaaS Metrics Analysis",
+  "description": "ChatGPT can be a game-changer for product managers tasked with SaaS metrics analysis. With its ability to learn from past data and trends, ChatGPT can quickly process vast amounts of data and provide ...",
+  "category": "template",
+  "subcategory": "product-management",
+  "complexity": "intermediate",
+  "format": "template",
+  "target_ai": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "any"
+  ],
+  "use_cases": [
+    "business",
+    "product-management"
+  ],
+  "tags": [
+    "productmanagement",
+    "metrics"
+  ],
+  "source": {
+    "repository": "AI-Prompt-Database",
+    "license": "MIT",
+    "attribution": "https://github.com/Vazno/AI-Prompt-Database"
+  },
+  "prompt_text": "As a product manager for a SaaS company, I need to analyze our key metrics for the past [time_period]. Our main metrics of focus are churn rate, customer acquisition cost, and customer lifetime value. Our current data shows that our churn rate is [churn_rate], our customer acquisition cost is [CAC], and our customer lifetime value is [CLTV]. Based on this data, can you provide insights on potential areas for improvement and any recommendations on how we can optimize these metrics to improve our overall business performance?",
+  "usage_example": "Fill in the template variables: time_period, churn_rate, CLTV, CAC",
+  "created_date": "2024-01-01",
+  "last_updated": "2024-01-01",
+  "reason_to_use": "ChatGPT can be a game-changer for product managers tasked with SaaS metrics analysis. With its ability to learn from past data and trends, ChatGPT can quickly process vast amounts of data and provide insights on key metrics such as churn rate, customer acquisition cost, and customer lifetime value. This frees up valuable time for product managers to focus on key business decisions and product development initiatives.",
+  "template_variables": [
+    "time_period",
+    "churn_rate",
+    "CLTV",
+    "CAC"
+  ],
+  "original_category": "Product-Management"
+}

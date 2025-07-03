@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompts Hub - AI Prompt Discovery</title>
+    <meta name="description" content="Discover and filter 357+ AI prompts across categories like conversational, system, and templates. Perfect for ChatGPT, Claude, and other AI models.">
+    <link rel="stylesheet" href="src/styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">
+                    <span class="logo-icon">🚀</span>
+                    Prompts Hub
+                </h1>
+                <p class="tagline">Discover & Filter 357+ AI Prompts</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Search and Filters -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Search prompts..." class="search-input">
+                    <button class="search-btn" onclick="searchPrompts()">
+                        <span>🔍</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="filters-container">
+                <div class="filter-group">
+                    <label for="categoryFilter" class="filter-label">Category</label>
+                    <select id="categoryFilter" class="filter-select" onchange="applyFilters()">
+                        <option value="">All Categories</option>
+                        <option value="conversational">Conversational</option>
+                        <option value="system">System</option>
+                        <option value="template">Template</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="subcategoryFilter" class="filter-label">Subcategory</label>
+                    <select id="subcategoryFilter" class="filter-select" onchange="applyFilters()">
+                        <option value="">All Subcategories</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="complexityFilter" class="filter-label">Complexity</label>
+                    <select id="complexityFilter" class="filter-select" onchange="applyFilters()">
+                        <option value="">All Levels</option>
+                        <option value="basic">Basic</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                        <option value="expert">Expert</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="aiModelFilter" class="filter-label">AI Model</label>
+                    <select id="aiModelFilter" class="filter-select" onchange="applyFilters()">
+                        <option value="">All Models</option>
+                        <option value="chatgpt">ChatGPT</option>
+                        <option value="claude">Claude</option>
+                        <option value="gemini">Gemini</option>
+                        <option value="any">Any Model</option>
+                    </select>
+                </div>
+
+                <button class="clear-filters-btn" onclick="clearFilters()">Clear Filters</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" id="totalPrompts">357</div>
+                    <div class="stat-label">Total Prompts</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="filteredPrompts">357</div>
+                    <div class="stat-label">Filtered Results</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">76</div>
+                    <div class="stat-label">Unique Tags</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">12</div>
+                    <div class="stat-label">Categories</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results -->
+    <section class="results-section">
+        <div class="container">
+            <div class="results-header">
+                <h2 class="results-title">Prompts</h2>
+                <div class="view-toggle">
+                    <button class="view-btn active" data-view="grid" onclick="toggleView('grid')">
+                        <span>⊞</span> Grid
+                    </button>
+                    <button class="view-btn" data-view="list" onclick="toggleView('list')">
+                        <span>☰</span> List
+                    </button>
+                </div>
+            </div>
+
+            <div id="loadingSpinner" class="loading">
+                <div class="spinner"></div>
+                <p>Loading prompts...</p>
+            </div>
+
+            <div id="promptsContainer" class="prompts-grid" style="display: none;">
+                <!-- Prompts will be loaded here -->
+            </div>
+
+            <div id="noResults" class="no-results" style="display: none;">
+                <div class="no-results-icon">🔍</div>
+                <h3>No prompts found</h3>
+                <p>Try adjusting your search criteria or clearing filters</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Prompts Hub</h3>
+                    <p>Curated collection of AI prompts for better interactions</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#" onclick="showCategory('conversational')">Conversational</a></li>
+                        <li><a href="#" onclick="showCategory('system')">System</a></li>
+                        <li><a href="#" onclick="showCategory('template')">Templates</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="https://github.com/guychenya/Flows" target="_blank">GitHub Repository</a></li>
+                        <li><a href="#" onclick="showLicenseInfo()">License Info</a></li>
+                        <li><a href="#" onclick="showSourceInfo()">Sources</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Prompts Hub. Licensed under MIT. Sources properly attributed.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for Prompt Details -->
+    <div id="promptModal" class="modal" onclick="closeModal(event)">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modalContent">
+                <!-- Prompt details will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="src/app.js"></script>
+</body>
+</html>

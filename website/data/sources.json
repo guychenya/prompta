@@ -1,0 +1,52 @@
+{
+  "awesome-chatgpt-prompts": {
+    "name": "awesome-chatgpt-prompts",
+    "license": "CC0-1.0",
+    "attribution": "https://github.com/f/awesome-chatgpt-prompts",
+    "prompt_count": 212,
+    "categories": [
+      "conversational"
+    ],
+    "description": "A curated list of ChatGPT prompts to act as various characters and roles"
+  },
+  "ChatGPT-System-Prompts": {
+    "name": "ChatGPT-System-Prompts",
+    "license": "MIT",
+    "attribution": "https://github.com/mustvlad/ChatGPT-System-Prompts",
+    "prompt_count": 46,
+    "categories": [
+      "system"
+    ],
+    "description": "A collection of system prompts for ChatGPT and other LLMs"
+  },
+  "awesome-ai-system-prompts": {
+    "name": "awesome-ai-system-prompts",
+    "license": "MIT",
+    "attribution": "https://github.com/spdustin/awesome-ai-system-prompts",
+    "prompt_count": 54,
+    "categories": [
+      "system"
+    ],
+    "description": "System prompts for various AI tools and platforms"
+  },
+  "system-prompts-and-models-of-ai-tools": {
+    "name": "system-prompts-and-models-of-ai-tools",
+    "license": "MIT",
+    "attribution": "https://github.com/yourusername/system-prompts-and-models-of-ai-tools",
+    "prompt_count": 26,
+    "categories": [
+      "system"
+    ],
+    "description": "Comprehensive collection of system prompts for AI development tools"
+  },
+  "AI-Prompt-Database": {
+    "name": "AI-Prompt-Database",
+    "license": "MIT",
+    "attribution": "https://github.com/Vazno/AI-Prompt-Database",
+    "prompt_count": 19,
+    "categories": [
+      "template"
+    ],
+    "description": "Professional prompt templates for marketing, development, and business use cases"
+  }
+}
