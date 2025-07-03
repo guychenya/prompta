@@ -33,7 +33,7 @@ class PromptsHub {
                 const errorText = await response.text(); // Try to read response body for more info
                 throw new Error(`Could not load prompts data: ${response.status} ${response.statusText} - ${errorText}`);
             }
-            this.prompts = await response.json();
+            this.prompts = (await response.json()).prompts;
             this.filteredPrompts = [...this.prompts];
         } catch (error) {
             console.error('Error loading prompts:', error);
