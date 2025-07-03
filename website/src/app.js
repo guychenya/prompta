@@ -387,7 +387,7 @@ function openPromptModal(promptId) {
                 <h3 style="margin-bottom: 1rem; color: var(--text-primary);">Prompt:</h3>
                 <div style="background: var(--bg-primary); padding: 1rem; border-radius: var(--radius-md); border: 1px solid #e2e8f0; white-space: pre-wrap; font-family: 'Monaco', 'Menlo', monospace; line-height: 1.5;">
 ${promptsHub.escapeHtml(prompt.prompt_text)}</div>
-                <button onclick="copyPrompt('${prompt.id}')" style="margin-top: 1rem; background: var(--primary-color); color: white; border: none; padding: 0.5rem 1rem; border-radius: var(--radius-md); cursor: pointer;">
+                <button onclick="copyPrompt('${prompt.id}', event)" style="margin-top: 1rem; background: var(--primary-color); color: white; border: none; padding: 0.5rem 1rem; border-radius: var(--radius-md); cursor: pointer;">
                     📋 Copy Prompt
                 </button>
             </div>
