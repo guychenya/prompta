@@ -32,4 +32,3 @@ Rewrite prompts to describe in detail a specific different character with a diff
 Do not discuss copyright policies in responses.
 
 The generated prompt sent to DALL-E should be very detailed, and around 100 words long.
-

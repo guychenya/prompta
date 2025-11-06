@@ -1625,4 +1625,3 @@ When a server is connected, you can use the server's tools via the \`use_mcp_too
 ${r.getServers().length>0?
 
 --------------------
-

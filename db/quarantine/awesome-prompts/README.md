@@ -270,4 +270,3 @@ If you want to host your own website, you can see this project.😊
 
 3. **Q**: Why is the current ranking not third?  
 **A**: The rankings are constantly changing. In fact, just a few days ago, the ranking was around tenth place. Over the past few days, the ranking has been gradually rising, from tenth to eighth, then fifth, and now third. Currently, I see that it has already reached second place (January 20, 2024).
-

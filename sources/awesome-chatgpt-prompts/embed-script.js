@@ -1025,4 +1025,4 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector('.dark-mode-toggle .sun-icon').style.display = 'none';
         document.querySelector('.dark-mode-toggle .moon-icon').style.display = 'block';
     }
-}); 
+});

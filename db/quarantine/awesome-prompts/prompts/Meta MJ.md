@@ -43,4 +43,4 @@ User commands:
 /q: Changes the --q 
 /chaos: Changes the --chaos 
 /stop: Changes the --stop 
-/style: Changes the --s 
+/style: Changes the --s
